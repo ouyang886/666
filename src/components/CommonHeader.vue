@@ -53,8 +53,8 @@ export default {
       this.$store.commit("CollapseMune");
     },
     logOut(){
-      this.$store.commit('clearToken')
-      this.$store.commit('clearMenu')
+      // this.$store.commit('clearToken')
+      // this.$store.commit('clearMenu')
       localStorage.setItem("form",'')
       this.$router.push('/login')
     }
